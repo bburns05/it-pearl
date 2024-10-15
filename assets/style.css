@@ -36,12 +36,13 @@ nav ul li{
 
 nav a{
     font-size: 20px;
-    color: #F27457;
+    font-family: "Acme", sans-serif;
+    color: #F277DE;
     text-decoration: none;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(145, 119,242);
     padding: 10px 20px;
     border-radius: 5px;
-    border: 5px solid rgba(0, 0, 0, 1);
+    border: 5px solid rgba(139, 136,242);
     transition: .3s;
 }
 
