@@ -10,15 +10,15 @@ html {
 
 
 body{
-    background-color: #A6A08D;
+    background-color: #BDCAF2;
     margin-left: 60px;
 }
 
 h1 {
-    color: #F25041;
+    color: #F277DE;
     text-align: center;
-    font-family: "Protest Revolution", sans-serif;
-    font-size: 50px;
+    font-family: "Acme", sans-serif;
+    font-size: 75px;
     margin-bottom: 100px;
 }
 
