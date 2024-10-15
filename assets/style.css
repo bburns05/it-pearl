@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+
+body{
+    background-color: #A6A08D;
+    margin-left: 60px;
+}
+
+h1 {
+    color: #F25041;
+    text-align: center;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    margin-top: 45px;
+}
+
+nav a{
+    font-size: 20px;
+    color: #F27457;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 5px solid rgba(0, 0, 0, 1);
+    transition: .3s;
+}
+
+nav a:hover{
+    background-color: rgba( 0, 0, 0, .7);
+}
