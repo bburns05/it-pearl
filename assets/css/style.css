@@ -10,16 +10,22 @@ html {
 
 
 body{
-    background-color: #BDCAF2;
+    background-color: #E7E8E6;
     margin-left: 60px;
 }
 
 h1 {
-    color: #F277DE;
+    color: #536E91;
     text-align: center;
     font-family: "Acme", sans-serif;
     font-size: 75px;
     margin-bottom: 100px;
+    border: 10px solid #79726E;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px;
+    -webkit-text-stroke: .5px #79726E; 
 }
 
 nav ul {
@@ -31,21 +37,22 @@ nav ul {
 
 nav ul li{
     list-style-type: none;
-    margin-top: 45px;
+    margin-top: 75px;
 }
 
 nav a{
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Acme", sans-serif;
-    color: #F277DE;
+    color: #E7E8E6;
     text-decoration: none;
-    background-color: rgba(145, 119,242);
-    padding: 10px 20px;
+    background-color: rgba(83, 110,145);
+    padding: 20px 30px;
     border-radius: 5px;
-    border: 5px solid rgba(139, 136,242);
+    border: 5px solid rgba(121, 114,110);
     transition: .3s;
 }
 
 nav a:hover{
-    background-color: rgba( 0, 0, 0, .7);
+    background-color: rgba(121, 114,110, .7);
 }
+
