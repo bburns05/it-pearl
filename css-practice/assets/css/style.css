@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+body {
+    background-color: #548D95;
+    font-family: "Rajdhani", sans-serif;
+    color: #CBDBA7;
+}
+
+main{
+    
+    margin: 40px;
+}
+
+header.primary{
+    background-color: #CBDBA7;
+    padding: 20px;
+    color: #548D95;
+    text-align: center;
+}
+
+.primary.container h1{
+    font-size: 4rem;
+}
+
+.hgroup a{
+    color: #548D95;
+    text-decoration: none;
+    border: 5px solid #ECC199;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.hgroup a:hover{
+    background-color: rgba(236,193, 153, .8);
+    transition: 0.5s;
+}
+
+nav ul{
+    text-align: center; 
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin:20px
+}
+
+nav a{
+    color: #548D95;
+    text-decoration: none;
+    border: 5px solid #ECC199;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+nav a:hover{
+    background-color: rgba(236,193, 153, .8);
+    transition: 0.5s;
+}
+

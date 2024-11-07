@@ -25,7 +25,8 @@ h1 {
     margin: 0 auto;
     width: fit-content;
     padding: 10px;
-    -webkit-text-stroke: .5px #79726E; 
+    -webkit-text-stroke: .01px #79726E;
+    letter-spacing: 1.01rem;
 }
 
 nav ul {
