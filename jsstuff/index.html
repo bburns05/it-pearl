@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>USGS Data Fetch</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="usgs-data.js" defer></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<link href="assets/style.css" rel="stylesheet">
+<script src="footer-map.js"></script>
+</head>
+
+<body>
+  <h1>Water Levels At Sites Around Our Grounds</h1>
+  <button id="checkData">Check Levels!</button>
+  <div id="sites">
+    <div id="boxley">
+      <h2>Boxley</h2>
+      <ul></ul>
+    </div>
+    <div id="ponca">
+      <h2>Ponca</h2>
+      <ul></ul>
+    </div>
+    <div id="pruitt">
+      <h2>Pruitt</h2>
+      <ul></ul>
+    </div>
+    <div id="carver">
+      <h2>Carver</h2>
+      <ul></ul>
+    </div>
+  </div>
+  <div id="error" style="color: red;"></div>
+
+
+  <footer id="colophon">
+    <div class="footer-container">
+      <div id="footer-left">
+        <h6>&copy; Big Buffalo River Retreats 2025</h6>
+        <p>yadda@gmail.com</p>
+        <p>AR-43, Compton, AR 72624</p>
+        <p>1-800-555-5555</p>
+        
+      </div>
+  
+      <div id="footer-location">
+        <a href="https://www.google.com/maps?q=36.026009,-93.365169" target="_blank" class="directions-button">
+          Get Directions
+        </a>
+        
+      </div>
+  
+      <div id="map"></div>
+    </div>
+  </footer>
+</body>
+
+
+
+</html>

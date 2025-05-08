@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<h1>JS Calculator Assignment</h1>
+
+<form id="myform">
+    <label>Operand 1:</label>
+    <input type="text" id="Operand1">
+    <span id="Operand1Error" class="error"></span>
+    <br><br>
+
+    <label>Operator:</label>
+    <input type="radio" id="AddOperator" name="operator" value="+">+
+    <input type="radio" id="SubtractOperator" name="operator" value="-">-
+    <input type="radio" id="MultiplyOperator" name="operator" value="*">*
+    <input type="radio" id="DivideOperator" name="operator" value="/">/
+    <span id="OperatorError" class="error"></span>
+    <br><br>
+
+    <label>Operand 2:</label>
+    <input type="text" id="Operand2">
+    <span id="Operand2Error" class="error"></span>
+    <br><br>
+
+    <label>Result:</label>
+    <span id="Result"></span>
+    <br><br>
+
+    <button type="button" onclick="calculate()">Calculate</button>
+    <button type="button" onclick="clearform()">Clear</button>
+</form>
+
+<script src="calculator.js"></script>
+
+</body>
+</html>

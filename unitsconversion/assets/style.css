@@ -1,0 +1,26 @@
+
+h1 {
+    color: #b8860b;
+    border-bottom: 3px solid #b8860b;
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+fieldset {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid gray;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    margin-left: 10px;
+}

@@ -1,0 +1,15 @@
+.error {
+    color: red;
+    margin-left: 10px;
+}
+
+
+h1 {
+    color: brown;
+    border-bottom: 3px solid goldenrod;
+}
+
+#myform {
+    border: 2px solid #000000;
+    padding: 20px;
+}

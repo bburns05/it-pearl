@@ -13,18 +13,16 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Caveat:wght@400..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Caveat:wght@400..700&family=Lilita+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/bankgothic-md-bt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
-    <body id="weather">
+    <body id="weatherApp">
         <main>
           <header role="banner" class="primary">
             <div class="hgroup">
-                <img src="assets/img/stateparklogo.png" alt="Petit Jean logo">
-              <h2>Founded by: Elon Musk</h2>
+              <h1>Petit Jean State Park</h1>
             </div>
             <nav role="navigation">
               <ul>
@@ -36,7 +34,17 @@
             </nav>
           </header>
         <section id="heading" class="info">
-        
+            <h1>Local Weather</h1>
+          
+            <label for="location">Enter Location:</label>
+            <input type="text" id="location" placeholder="Petit Jean State Park">
+            <button id="getWeather">DisplayTemp</button>
+            <button id="clear">Clear</button>
+            <p id="error"></p>
+            <div id="locationInfo"></div>
+            <table id="forecastTable"></table>
+            <canvas id="forecastChart" width="600" height="300"></canvas>
+
         <footer id="footermain">| <a href="https://bburns05.github.io/it-pearl/">&copy; 2025 Bryce Burns</a> | <a href="https://www.arkansasstateparks.com/parks/petit-jean-state-park">Our Site</a> |<a href="mailto:example@example.com">Contact Us!</a> | </footer>
     </main>
 
